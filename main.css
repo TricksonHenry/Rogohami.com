@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+}
+
+body {
+    background-color:rgb(231, 209, 228);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+aside {
+    color:black;
+    display: grid;
+    grid-template-columns: auto 40px;
+    margin: 0;
+    padding:0;
+}
+
+aside h1 {
+    margin-left: 0.4em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+   background-color: rgb(31, 90, 92);
+   margin: 0;
+   width: 100%;
+   height: 80%;
+   background-attachment: fixed;
+   display: block;
+   grid-template-columns: auto;
+   padding:2em 0.8em;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+main p {
+    line-height: 2em;
+    font-family: monospace;
+    font-size: 1.1em;
+
+}
+
+aside,h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: em;
+    color: blue;
+    font-style: italic;
+}
+
+nav {
+    background: #fff;
+}
+
+.active {
+    position: absolute;
+    display: block;
+    background: rgb(31, 90, 92);
+    width: 60%;
+    left: 0;
+    top:0;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: thin;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    padding: 0.8em 0.2em;
+    background-color: rgba(231, 209, 228,.35);
+    color: black;
+}
+
+
+@media only screen and (min-width: 762px) {
+
+    body {
+        display: grid;
+        padding: 1em;
+    }
+
+    aside img {
+        display: none;
+    }
+
+    aside {
+        background: rgb(231, 209, 228);
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        
+    }
+
+    aside h1 {
+        grid-column: 20% auto;
+        grid-template-rows: auto;
+
+    }
+     
+    ul {
+        display: block;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: rgb(231, 209, 228);
+    }
+
+    ul li a {
+        float: left;
+        display: block;
+        grid-template-columns: auto;
+        grid-row: auto;
+        padding: 1em;
+        margin: 0.5em;
+        grid-auto-flow: row;
+    }
+
+
+    footer {
+        color: black;
+        font-weight: bold;
+    }
+
+    nav{
+        display: block;
+        width: 100%;
+
+    }
+
+    main  {
+        display: grid;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    main p {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    footer {
+        background: rgb(231, 209, 228);
+        grid-template-rows: 10%;
+        width: 100%;
+
+    }
+
+    li a:hover {
+        background-color: rgb(31, 90, 92);
+
+    }
+
+}
