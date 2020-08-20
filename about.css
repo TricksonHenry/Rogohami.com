@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 html,body {
-    height: calc(100% - 1em);
+    height: calc(100% - 0em);
     margin: 0;
 }
 
