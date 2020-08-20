@@ -257,4 +257,12 @@ footer ul li {
         height: 1em;
         margin-top: 2.2em;
     }
+    
+     .rtn h1 {
+        display: block;
+        margin: 0.5em;
+        font-size: 350%;
+        padding-top: .8em;
+    }
+
 }
