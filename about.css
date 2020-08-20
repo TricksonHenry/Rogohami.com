@@ -178,6 +178,13 @@ footer ul li {
         font-size: 350%;
         padding-top: .8em;
     }
+    
+    h1 {
+        display: block;
+        margin: 0.5em;
+        font-size: 350%;
+        padding-top: .8em;
+    }
 
     .ceo img {
         width: 12em;
