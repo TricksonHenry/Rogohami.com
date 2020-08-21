@@ -53,10 +53,10 @@ aside,h1 {
 }
 
 img {
-    width: 40px;
+    width: 100%;
     height: auto;
     cursor: pointer;
-    float: right;
+    
 }
 
 footer {
